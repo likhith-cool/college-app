@@ -26,8 +26,7 @@ SECRET_KEY = 'jy8c-n9y=pf##!2^jae-l_5iafq6q%wfq8gdb6c0r5d52su+9y'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://college-app-production-733d.up.railway.app']
-
+CSRF_TRUSTED_ORIGINS = ['https://college-app-production.up.railway.app']
 AUTH_USER_MODEL = 'info.User'
 
 
